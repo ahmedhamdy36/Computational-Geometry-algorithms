@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGUI", "CGUI\CGUI.csproj", "{52129927-4798-4EC8-A63F-86E4BE960C4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CB99923-BEA8-42FB-8B29-B117E2221958} = {5CB99923-BEA8-42FB-8B29-B117E2221958}
+		{2CF0939D-73CF-4863-B088-DB3FF4003450} = {2CF0939D-73CF-4863-B088-DB3FF4003450}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGAlgorithms", "CGAlgorithms\CGAlgorithms.csproj", "{5CB99923-BEA8-42FB-8B29-B117E2221958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGUtilities", "CGUtilities\CGUtilities.csproj", "{2CF0939D-73CF-4863-B088-DB3FF4003450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGAlgorithmsUnitTest", "CGAlgorithmsUnitTest\CGAlgorithmsUnitTest.csproj", "{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGUtilitiesUnitTest", "CGUtilitiesUnitTest\CGUtilitiesUnitTest.csproj", "{D92440B4-A5FD-4EB9-B1F6-0EBB28254FC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52129927-4798-4EC8-A63F-86E4BE960C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52129927-4798-4EC8-A63F-86E4BE960C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52129927-4798-4EC8-A63F-86E4BE960C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52129927-4798-4EC8-A63F-86E4BE960C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB99923-BEA8-42FB-8B29-B117E2221958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB99923-BEA8-42FB-8B29-B117E2221958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB99923-BEA8-42FB-8B29-B117E2221958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB99923-BEA8-42FB-8B29-B117E2221958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF0939D-73CF-4863-B088-DB3FF4003450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF0939D-73CF-4863-B088-DB3FF4003450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF0939D-73CF-4863-B088-DB3FF4003450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF0939D-73CF-4863-B088-DB3FF4003450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92440B4-A5FD-4EB9-B1F6-0EBB28254FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92440B4-A5FD-4EB9-B1F6-0EBB28254FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92440B4-A5FD-4EB9-B1F6-0EBB28254FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92440B4-A5FD-4EB9-B1F6-0EBB28254FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
